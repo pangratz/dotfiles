@@ -26,11 +26,6 @@ those awesome dotfiles:
 	cd ~/.dotfiles
 	osx/set-defaults.sh
 
-## Apply changes
-
-	cd ~/.dotfiles
-	script/bootstrap
-
 ## TODO
 
 - check if oh-my-zsh is desired and add it
