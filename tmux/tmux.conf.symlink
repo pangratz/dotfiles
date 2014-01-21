@@ -1,3 +1,6 @@
+# zero based index is for programming languages
+set -g base-index 1
+
 # act like vim
 setw -g mode-keys vi
 
