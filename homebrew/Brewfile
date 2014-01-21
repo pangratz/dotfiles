@@ -1,6 +1,9 @@
 # Make sure we’re using the latest Homebrew
 update
 
+# Use most recent version of vim
+install vim --override-system-vi
+
 # for a sane tmux <--> OSX clipboard service
 # http://robots.thoughtbot.com/tmux-copy-paste-on-os-x-a-better-future
 install reattach-to-user-namespace
