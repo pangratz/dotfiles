@@ -1,4 +1,8 @@
 # Make sure we’re using the latest Homebrew
 update
 
+# for a sane tmux <--> OSX clipboard service
+# http://robots.thoughtbot.com/tmux-copy-paste-on-os-x-a-better-future
+install reattach-to-user-namespace
+
 install z
