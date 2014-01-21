@@ -1,0 +1,4 @@
+# Make sure we’re using the latest Homebrew
+update
+
+install z

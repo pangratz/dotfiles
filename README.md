@@ -25,8 +25,3 @@ those awesome dotfiles:
 
 	cd ~/.dotfiles
 	osx/set-defaults.sh
-
-## TODO
-
-- check if oh-my-zsh is desired and add it
-- use vundle to install vim plugins

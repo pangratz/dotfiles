@@ -1,0 +1,11 @@
+[color]
+	ui = true
+[alias]
+	tree = log --graph --oneline --all --decorate
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = vim
+[credential]
+	helper = osxkeychain
+[push]
+	default = tracking
