@@ -19,7 +19,7 @@ those awesome dotfiles:
 	git clone https://github.com/pangratz/dotfiles.git ~/.dotfiles
 	cd ~/.dotfiles
 	script/install
-	script/bootsrap
+	script/bootstrap
 
 ## Set sane OSX defaults
 
