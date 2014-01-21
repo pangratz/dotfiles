@@ -9,6 +9,6 @@ if [ ! -d ~/.vim/bundle/vundle ]; then
 fi
 
 # Install all vundles
-vim +BundleInstall +qall
+vim --noplugin -u vim/vundles.vim -N "+set hidden" "+syntax on" +BundleClean! +BundleInstall +qall
 
 exit 0
