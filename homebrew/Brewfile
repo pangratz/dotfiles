@@ -6,3 +6,6 @@ update
 install reattach-to-user-namespace
 
 install z
+
+# Remove outdated versions from the cellar
+cleanup
