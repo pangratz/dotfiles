@@ -1,6 +1,9 @@
 # zero based index is for programming languages
 set -g base-index 1
 
+# renumber windows when one is closed or added
+set -g renumber-windows on
+
 # act like vim
 setw -g mode-keys vi
 
