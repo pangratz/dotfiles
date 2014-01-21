@@ -1,0 +1,1 @@
+alias u='gem update && brew update && brew outdated'

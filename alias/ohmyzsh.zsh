@@ -1,0 +1,1 @@
+alias cdohmyzsh='cd $ZSH'

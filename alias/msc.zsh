@@ -1,0 +1,5 @@
+alias cdmsc='cd ~/Dropbox/MSc\ Thesis'
+alias cdmsc-heartman-bluetooth-recorder='cd ~/Dropbox/MSc\ Thesis/src/heartman-bluetooth-recorder'
+alias cdmsc-physiotoolkit-wrapper='cd ~/Dropbox/MSc\ Thesis/src/physiotoolkit-wrapper'
+alias cdmsc-ecg-analysis-webapp='cd ~/Dropbox/MSc\ Thesis/src/ecg-analysis-webapp'
+alias cdmsc-ecg-analysis='cd ~/Dropbox/MSc\ Thesis/src/ecg-analysis'
