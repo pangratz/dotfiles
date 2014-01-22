@@ -42,3 +42,6 @@ let mapleader=","
 if filereadable(expand("$DOTFILES/vim/vundles.vim"))
   source $DOTFILES/vim/vundles.vim
 endif
+
+" ================ Custom Settings ========================
+source $DOTFILES/vim/settings.vim
