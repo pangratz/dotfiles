@@ -21,9 +21,11 @@ set hidden
 "turn on syntax highlighting
 syntax on
 
-" specify tmp directory
+" store temporary files in a central spot
+" http://items.sjbach.com/319/configuring-vim-right
 silent !mkdir ~/.vim_backup > /dev/null 2>&1
-set backupdir=~/.vim_backup
+set backupdir=~/.vim_backup,~/.tmp,~/tmp,/var/tmp,/tmp
+set directory=~/.vim_backup,~/.tmp,~/tmp,/var/tmp,/tmp
 
 " we need no swapfiles
 set noswapfile
