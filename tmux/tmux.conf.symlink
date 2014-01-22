@@ -1,3 +1,6 @@
+# reload tmux.conf
+bind-key r source-file ~/.tmux.conf \; display "Config reloaded!"
+
 # zero based index is for programming languages
 set -g base-index 1
 
