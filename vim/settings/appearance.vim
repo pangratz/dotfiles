@@ -1,0 +1,2 @@
+" display ruler
+set ruler
