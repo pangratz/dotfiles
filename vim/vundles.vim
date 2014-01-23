@@ -19,9 +19,6 @@ Bundle "gmarik/vundle"
 " Filetype plugin indent on is required by vundle
 filetype plugin indent on
 
-" ================ Custom Settings ========================
-so $DOTFILES/vim/settings.vim
-
 " File Navigation / Project Management
 Bundle "scrooloose/nerdtree.git"
 Bundle "kien/ctrlp.vim"
