@@ -45,6 +45,17 @@ bind -r L resize-pane -R 5
 
 
 ##############################
+## THE MOST EPIC OF SPLITS ###
+##############################
+
+# PREFIX | to split vertically
+bind | split-window -h
+
+# PREFIX - to split horizontally
+bind - split-window -v
+
+
+##############################
 ##### SELECTION AND COPY #####
 ##############################
 
