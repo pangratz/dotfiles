@@ -14,6 +14,11 @@ set -g renumber-windows on
 # act like vim
 setw -g mode-keys vi
 
+
+##############################
+##### NAVIGATION #############
+##############################
+
 # use vim's h,j,k,l to navigate left, up, down, right
 bind h select-pane -L
 bind j select-pane -D
@@ -26,6 +31,11 @@ bind-key -r C-h select-window -t :-
 # navigate to next window with prefix + <ctr>l
 bind-key -r C-l select-window -t :+
 
+
+##############################
+##### RESIZING ###############
+##############################
+
 # resize panes using PREFIX H, J, K, L
 # `-r` indicates that the key may repeat
 bind -r H resize-pane -L 5
@@ -33,6 +43,10 @@ bind -r J resize-pane -D 5
 bind -r K resize-pane -U 5
 bind -r L resize-pane -R 5
 
+
+##############################
+##### SELECTION AND COPY #####
+##############################
 
 # Setup 'v' to begin selection as in Vim
 bind-key -t vi-copy v begin-selection
