@@ -2,6 +2,10 @@
 set -g utf8
 set-window-option -g utf8 on
 
+# change PREFIX to <ctrl>a
+set -g prefix C-a
+unbind C-b
+
 # reload tmux.conf
 bind-key r source-file ~/.tmux.conf \; display "Config reloaded!"
 
