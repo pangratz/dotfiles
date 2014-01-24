@@ -24,10 +24,10 @@ setw -g mode-keys vi
 ##############################
 
 # use vim's h,j,k,l to navigate left, up, down, right
-bind h select-pane -L
-bind j select-pane -D
-bind k select-pane -U
-bind l select-pane -R
+bind -r h select-pane -L
+bind -r j select-pane -D
+bind -r k select-pane -U
+bind -r l select-pane -R
 
 # navigate to previous window with prefix + <ctr>h
 bind-key -r C-h select-window -t :-
