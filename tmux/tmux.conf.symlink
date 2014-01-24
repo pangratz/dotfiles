@@ -18,6 +18,9 @@ set -g renumber-windows on
 # act like vim
 setw -g mode-keys vi
 
+# set blue border around active pane
+set-option -g pane-active-border-fg blue
+
 
 ##############################
 ##### NAVIGATION #############
