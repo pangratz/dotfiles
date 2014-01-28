@@ -11,6 +11,7 @@ bind-key r source-file ~/.tmux.conf \; display "Config reloaded!"
 
 # zero based index is for programming languages
 set -g base-index 1
+set-window-option -g pane-base-index 1
 
 # renumber windows when one is closed or added
 set -g renumber-windows on
