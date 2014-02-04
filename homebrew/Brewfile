@@ -6,6 +6,11 @@ install vim --override-system-vi
 
 install tmux
 
+# install source control systems
+install git
+install mercurial
+install subversion
+
 # for a sane tmux <--> OSX clipboard service
 # http://robots.thoughtbot.com/tmux-copy-paste-on-os-x-a-better-future
 install reattach-to-user-namespace
