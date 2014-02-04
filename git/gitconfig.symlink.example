@@ -2,6 +2,8 @@
 	ui = true
 [alias]
 	tree = log --graph --oneline --all --decorate
+[commit]
+	template = ~/.git_commit_message_template
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = vim
