@@ -11,3 +11,5 @@
 	helper = osxkeychain
 [push]
 	default = tracking
+[help]
+	autocorrect = -1
