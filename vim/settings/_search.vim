@@ -10,3 +10,6 @@ set smartcase
 
 " highlight dynamically as pattern is typed
 set incsearch
+
+" toggle hlsearch via <leader>+<space>
+noremap <leader><space> :nohlsearch<cr>
