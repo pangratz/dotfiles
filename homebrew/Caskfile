@@ -10,5 +10,6 @@ installcask dropbox
 installcask google-chrome
 installcask google-chrome-canary
 installcask iterm2
+installcask skype
 installcask virtualbox
 installcask vlc
