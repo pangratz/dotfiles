@@ -16,6 +16,9 @@ set-window-option -g pane-base-index 1
 # renumber windows when one is closed or added
 set -g renumber-windows on
 
+# don't rename windows automatically
+set-window-option -g automatic-rename off
+
 # act like vim
 setw -g mode-keys vi
 
