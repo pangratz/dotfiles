@@ -25,6 +25,9 @@ setw -g mode-keys vi
 # set blue border around active pane
 set-option -g pane-active-border-fg blue
 
+# open a new window in the same directory
+bind c new-window -c "#{pane_current_path}"
+
 
 ##############################
 ##### NAVIGATION #############
@@ -60,10 +63,10 @@ bind -r L resize-pane -R 5
 ##############################
 
 # PREFIX | to split vertically
-bind | split-window -h
+bind | split-window -h -c "#{pane_current_path}"
 
 # PREFIX - to split horizontally
-bind - split-window -v
+bind - split-window -v -c "#{pane_current_path}"
 
 
 ##############################
