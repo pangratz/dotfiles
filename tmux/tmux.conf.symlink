@@ -2,6 +2,9 @@
 set -g utf8
 set-window-option -g utf8 on
 
+# set default-terminal so colors work correctly
+set -g default-terminal "screen-256color"
+
 # change PREFIX to <ctrl>a
 set -g prefix C-a
 unbind C-b
