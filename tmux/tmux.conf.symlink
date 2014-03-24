@@ -28,6 +28,9 @@ setw -g mode-keys vi
 # set blue border around active pane
 set-option -g pane-active-border-fg blue
 
+# highlight current window
+set-window-option -g window-status-current-bg blue
+
 # open a new window in the same directory
 bind c new-window -c "#{pane_current_path}"
 
