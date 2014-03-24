@@ -20,5 +20,11 @@ install ffmpeg
 
 install z
 
+# install JavasScript related stuff
+install node
+install casperjs
+install phantomjs
+install slimerjs
+
 # Remove outdated versions from the cellar
 cleanup
