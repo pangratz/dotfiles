@@ -26,5 +26,11 @@ install casperjs
 install phantomjs
 install slimerjs
 
+# install databases
+install couchdb
+install mysql
+install postgresql
+install redis
+
 # Remove outdated versions from the cellar
 cleanup
