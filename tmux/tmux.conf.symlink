@@ -1,29 +1,29 @@
 # use UTF8
-set -g utf8
+set-option -g utf8
 set-window-option -g utf8 on
 
 # set default-terminal so colors work correctly
-set -g default-terminal "screen-256color"
+set-option -g default-terminal "screen-256color"
 
 # change PREFIX to <ctrl>a
-set -g prefix C-a
-unbind C-b
+set-option -g prefix C-a
+unbind-key C-b
 
 # reload tmux.conf
 bind-key r source-file ~/.tmux.conf \; display "Config reloaded!"
 
 # zero based index is for programming languages
-set -g base-index 1
+set-option -g base-index 1
 set-window-option -g pane-base-index 1
 
 # renumber windows when one is closed or added
-set -g renumber-windows on
+set-option -g renumber-windows on
 
 # don't rename windows automatically
 set-window-option -g automatic-rename off
 
 # act like vim
-setw -g mode-keys vi
+set-window-option -g mode-keys vi
 
 # set blue border around active pane
 set-option -g pane-active-border-fg blue
@@ -32,7 +32,7 @@ set-option -g pane-active-border-fg blue
 set-window-option -g window-status-current-bg blue
 
 # open a new window in the same directory
-bind c new-window -c "#{pane_current_path}"
+bind-key c new-window -c "#{pane_current_path}"
 
 
 ##############################
@@ -40,10 +40,10 @@ bind c new-window -c "#{pane_current_path}"
 ##############################
 
 # use vim's h,j,k,l to navigate left, up, down, right
-bind -r h select-pane -L
-bind -r j select-pane -D
-bind -r k select-pane -U
-bind -r l select-pane -R
+bind-key -r h select-pane -L
+bind-key -r j select-pane -D
+bind-key -r k select-pane -U
+bind-key -r l select-pane -R
 
 # navigate to previous window with prefix + <ctr>h
 bind-key -r C-h select-window -t :-
@@ -58,10 +58,10 @@ bind-key -r C-l select-window -t :+
 
 # resize panes using PREFIX H, J, K, L
 # `-r` indicates that the key may repeat
-bind -r H resize-pane -L 5
-bind -r J resize-pane -D 5
-bind -r K resize-pane -U 5
-bind -r L resize-pane -R 5
+bind-key -r H resize-pane -L 5
+bind-key -r J resize-pane -D 5
+bind-key -r K resize-pane -U 5
+bind-key -r L resize-pane -R 5
 
 
 ##############################
@@ -69,10 +69,10 @@ bind -r L resize-pane -R 5
 ##############################
 
 # PREFIX | to split vertically
-bind | split-window -h -c "#{pane_current_path}"
+bind-key | split-window -h -c "#{pane_current_path}"
 
 # PREFIX - to split horizontally
-bind - split-window -v -c "#{pane_current_path}"
+bind-key - split-window -v -c "#{pane_current_path}"
 
 
 ##############################
@@ -84,5 +84,5 @@ bind-key -t vi-copy v begin-selection
 bind-key -t vi-copy y copy-pipe "reattach-to-user-namespace pbcopy"
 
 # Update default binding of `Enter` to also use copy-pipe
-unbind -t vi-copy Enter
+unbind-key -t vi-copy Enter
 bind-key -t vi-copy Enter copy-pipe "reattach-to-user-namespace pbcopy"
