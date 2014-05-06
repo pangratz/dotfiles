@@ -1,5 +1,5 @@
 # taken from https://github.com/mathiasbynens/dotfiles/blob/master/.cask
-brew tap phinze/cask
+brew tap caskroom/cask
 brew install brew-cask
 
 function installcask() {
