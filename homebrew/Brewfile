@@ -19,6 +19,7 @@ install youtube-dl
 install ffmpeg
 
 # install utilities
+install packer
 install wget
 install z
 

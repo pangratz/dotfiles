@@ -9,6 +9,7 @@ function installcask() {
 installcask dropbox
 installcask iterm2
 installcask skype
+installcask vagrant
 installcask virtualbox
 installcask vlc
 
