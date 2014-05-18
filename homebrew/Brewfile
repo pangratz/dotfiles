@@ -18,6 +18,8 @@ install subversion
 install youtube-dl
 install ffmpeg
 
+# install utilities
+install wget
 install z
 
 # install JavasScript related stuff
