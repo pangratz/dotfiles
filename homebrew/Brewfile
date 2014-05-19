@@ -9,27 +9,27 @@ install vim --override-system-vi
 install tmux
 install reattach-to-user-namespace
 
-# install source control systems
+# source control systems
 install git
 install mercurial
 install subversion
 
-# install youtube-dl and dependencies for post processing
+# youtube-dl and dependencies for post processing
 install youtube-dl
 install ffmpeg
 
-# install utilities
+# utilities
 install packer
 install wget
 install z
 
-# install JavasScript related stuff
+# JavasScript related stuff
 install node
 install casperjs
 install phantomjs
 install slimerjs
 
-# install databases
+# databases
 install couchdb
 install mysql
 install postgresql
