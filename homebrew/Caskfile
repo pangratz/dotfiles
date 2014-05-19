@@ -10,6 +10,7 @@ function installcask() {
 installcask dropbox
 installcask google-drive
 
+installcask controlplane
 installcask iterm2
 installcask skype
 installcask vagrant
