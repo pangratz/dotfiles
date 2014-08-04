@@ -34,6 +34,16 @@ set-window-option -g window-status-current-bg blue
 # open a new window in the same directory
 bind-key c new-window -c "#{pane_current_path}"
 
+# panes and windows can be selected and resized via the mouse, scrolling via
+# mouse wheel is enabled as well; with this, the selecting-text-on-screen
+# functionality is changed: if a text should be selected so it can be copied
+# via <cmd> + c, the selection needs to be perfomed by additionally holding
+# down the <option> key
+set-option -g mode-mouse on
+set-option -g mouse-resize-pane on
+set-window-option -g mouse-select-window on
+set-window-option -g mouse-select-pane on
+
 
 ##############################
 ##### NAVIGATION #############
