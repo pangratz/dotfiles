@@ -35,5 +35,9 @@ install mysql
 install postgresql
 install redis
 
+# needed for gifify
+install imagemagick
+install gifsicle
+
 # Remove outdated versions from the cellar
 cleanup
