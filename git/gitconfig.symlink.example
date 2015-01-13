@@ -13,3 +13,5 @@
 	default = tracking
 [help]
 	autocorrect = -1
+[rebase]
+	autosquash = true
