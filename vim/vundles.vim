@@ -23,5 +23,8 @@ filetype plugin indent on
 Bundle "scrooloose/nerdtree.git"
 Bundle "kien/ctrlp.vim"
 
+" Text
+Bundle "tpope/vim-surround"
+
 " Git
 Bundle "tpope/vim-fugitive"
