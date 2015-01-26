@@ -1,43 +1,43 @@
 # Make sure we’re using the latest Homebrew
-update
+brew update
 
 # Use most recent version of vim
-install vim --override-system-vi
+brew install vim --override-system-vi
 
 # for a sane tmux <--> OSX clipboard service
 # http://robots.thoughtbot.com/tmux-copy-paste-on-os-x-a-better-future
-install tmux
-install reattach-to-user-namespace
+brew install tmux
+brew install reattach-to-user-namespace
 
 # source control systems
-install git
-install mercurial
-install subversion
+brew install git
+brew install mercurial
+brew install subversion
 
 # youtube-dl and dependencies for post processing
-install youtube-dl
-install ffmpeg
+brew install youtube-dl
+brew install ffmpeg
 
 # utilities
-install packer
-install wget
-install z
+brew install packer
+brew install wget
+brew install z
 
 # JavasScript related stuff
-install node
-install casperjs
-install phantomjs
-install slimerjs
+brew install node
+brew install casperjs
+brew install phantomjs
+brew install slimerjs
 
 # databases
-install couchdb
-install mysql
-install postgresql
-install redis
+brew install couchdb
+brew install mysql
+brew install postgresql
+brew install redis
 
 # needed for gifify
-install imagemagick
-install gifsicle
+brew install imagemagick
+brew install gifsicle
 
 # Remove outdated versions from the cellar
-cleanup
+brew cleanup

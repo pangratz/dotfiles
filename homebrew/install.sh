@@ -13,9 +13,9 @@ then
 fi
 
 # Install homebrew packages from se Brewfile
-brew bundle $DOTFILES/homebrew/Brewfile
+$DOTFILES/homebrew/Brewfile
 
 # Install casks from se Caskfile
-brew bundle $DOTFILES/homebrew/Caskfile
+$DOTFILES/homebrew/Caskfile
 
 exit 0
