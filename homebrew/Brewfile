@@ -20,6 +20,7 @@ brew install ffmpeg
 
 # utilities
 brew install packer
+brew install pwgen
 brew install wget
 brew install z
 
