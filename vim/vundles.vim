@@ -28,3 +28,6 @@ Bundle "tpope/vim-surround"
 
 " Git
 Bundle "tpope/vim-fugitive"
+
+" Appearance
+Bundle "altercation/vim-colors-solarized"

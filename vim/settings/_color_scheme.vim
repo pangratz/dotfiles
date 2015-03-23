@@ -1,1 +1,2 @@
-colorscheme delek
+set background=dark
+colorscheme solarized
