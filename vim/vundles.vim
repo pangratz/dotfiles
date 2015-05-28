@@ -33,4 +33,5 @@ Bundle "tpope/vim-fugitive"
 Bundle "altercation/vim-colors-solarized"
 
 " Other
+Bundle "mustache/vim-mustache-handlebars"
 Bundle "pangloss/vim-javascript"

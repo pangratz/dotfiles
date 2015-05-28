@@ -1,1 +1,1 @@
-autocmd BufRead,BufNewFile *.handlebars,*.hbs setfiletype html
+autocmd BufRead,BufNewFile *.handlebars,*.hbs setfiletype html.mustache
