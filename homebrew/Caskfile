@@ -18,3 +18,6 @@ brew cask install firefox
 brew cask install google-chrome
 brew cask install google-chrome-canary
 brew cask install opera
+
+# menu bar
+brew cask install gitify
