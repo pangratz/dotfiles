@@ -105,6 +105,7 @@ bind-key -t vi-copy Enter copy-pipe "reattach-to-user-namespace pbcopy"
 # List of plugins
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-sensible'
+set -g @plugin 'tmux-plugins/tmux-urlview'
 
 # Initialize TMUX plugin manager
 run '~/.tmux/plugins/tpm/tpm'
