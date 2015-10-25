@@ -106,6 +106,16 @@ bind-key -t vi-copy Enter copy-pipe "reattach-to-user-namespace pbcopy"
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-sensible'
 set -g @plugin 'tmux-plugins/tmux-urlview'
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+set -g @plugin 'tmux-plugins/tmux-continuum'
+
+# Configuration for plugins
+set -g @resurrect-strategy-vim 'session'
+
+# automatically start iTerm and tmux when computed is turned on
+set -g @continuum-restore 'on'
+set -g @continuum-boot 'on'
+set -g @continuum-boot-options 'iterm'
 
 # Initialize TMUX plugin manager
 run '~/.tmux/plugins/tpm/tpm'
