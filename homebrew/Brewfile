@@ -4,10 +4,7 @@ brew update
 # Use most recent version of vim
 brew install vim --override-system-vi
 
-# for a sane tmux <--> OSX clipboard service
-# http://robots.thoughtbot.com/tmux-copy-paste-on-os-x-a-better-future
 brew install tmux
-brew install reattach-to-user-namespace
 
 # source control systems
 brew install git
