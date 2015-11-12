@@ -1,0 +1,3 @@
+pw() {
+  pwgen 32 1 | pbcopy
+}
