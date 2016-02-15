@@ -21,3 +21,6 @@ brew cask install opera
 
 # menu bar
 brew cask install gitify
+
+# utilities
+brew cask install screenhero
