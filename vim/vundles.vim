@@ -11,13 +11,10 @@
 filetype off
 
 set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+call vundle#begin()
 
 " let Vundle manage Vundle (required)
 Bundle "gmarik/vundle"
-
-" Filetype plugin indent on is required by vundle
-filetype plugin indent on
 
 " File Navigation / Project Management
 Bundle "scrooloose/nerdtree.git"
@@ -35,3 +32,9 @@ Bundle "altercation/vim-colors-solarized"
 " Other
 Bundle "mustache/vim-mustache-handlebars"
 Bundle "pangloss/vim-javascript"
+
+" All of your Plugins must be added before the following line
+call vundle#end()
+
+" Filetype plugin indent on is required by vundle
+filetype plugin indent on
