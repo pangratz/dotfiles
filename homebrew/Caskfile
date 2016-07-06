@@ -2,6 +2,8 @@
 brew cask install dropbox
 brew cask install google-drive
 
+# developing
+brew cask install atom
 brew cask install iterm2
 brew cask install vagrant
 brew cask install virtualbox
@@ -14,7 +16,10 @@ brew cask install google-chrome-canary
 brew cask install opera
 
 # menu bar
+brew cask install fantastical
 brew cask install gitify
 
 # utilities
+brew cask install cyberduck
 brew cask install screenhero
+brew cask install transmission
