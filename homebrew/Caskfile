@@ -2,9 +2,7 @@
 brew cask install dropbox
 brew cask install google-drive
 
-brew cask install controlplane
 brew cask install iterm2
-brew cask install skype
 brew cask install vagrant
 brew cask install virtualbox
 brew cask install vlc
