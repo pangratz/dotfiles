@@ -101,9 +101,11 @@ set -g @plugin 'tmux-plugins/tmux-yank'
 set -g @plugin 'tmux-plugins/tmux-urlview'
 set -g @plugin 'tmux-plugins/tmux-resurrect'
 set -g @plugin 'tmux-plugins/tmux-continuum'
+set -g @plugin 'seebi/tmux-colors-solarized'
 
 # Configuration for plugins
 set -g @resurrect-strategy-vim 'session'
+set -g @colors-solarized 'dark'
 
 # automatically start iTerm and tmux when computed is turned on
 set -g @continuum-restore 'on'
