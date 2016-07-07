@@ -68,6 +68,17 @@ bind-key -r L resize-pane -R 5
 
 
 ##############################
+##### MOVING #################
+##############################
+
+# move current window left with prefix + <ctrl><shift><left>
+bind-key -r C-S-left swap-window -t -1
+
+# move current window right with prefix + <ctrl><shift><right>
+bind-key -r C-S-right swap-window -t +1
+
+
+##############################
 ## THE MOST EPIC OF SPLITS ###
 ##############################
 
