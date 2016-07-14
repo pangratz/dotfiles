@@ -20,3 +20,5 @@
 [rebase]
 	autosquash = true
 	autostash = true
+[stash]
+	showPatch = true
