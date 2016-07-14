@@ -33,6 +33,7 @@ Bundle "altercation/vim-colors-solarized"
 Bundle "elixir-lang/vim-elixir"
 Bundle "mustache/vim-mustache-handlebars"
 Bundle "pangloss/vim-javascript"
+Bundle "tpope/vim-obsession"
 
 " All of your Plugins must be added before the following line
 call vundle#end()
