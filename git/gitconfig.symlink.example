@@ -19,3 +19,4 @@
 	autocorrect = -1
 [rebase]
 	autosquash = true
+	autostash = true
