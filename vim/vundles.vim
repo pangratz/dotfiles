@@ -31,6 +31,7 @@ Bundle "altercation/vim-colors-solarized"
 
 " Other
 Bundle "elixir-lang/vim-elixir"
+Bundle "vim-ruby/vim-ruby"
 Bundle "mustache/vim-mustache-handlebars"
 Bundle "pangloss/vim-javascript"
 Bundle "tpope/vim-obsession"
