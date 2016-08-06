@@ -1,0 +1,3 @@
+rwcd() {
+  tmux rename-window ${PWD##*/}
+}
