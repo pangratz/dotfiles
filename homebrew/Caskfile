@@ -22,5 +22,6 @@ brew cask install gitify
 # utilities
 brew cask install cyberduck
 brew cask install flux
+brew cask install gas-mask
 brew cask install screenhero
 brew cask install transmission
