@@ -1,3 +1,5 @@
+brew tap caskroom/versions
+
 # sync utils
 brew cask install dropbox
 brew cask install google-drive
