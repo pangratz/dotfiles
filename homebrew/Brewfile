@@ -35,9 +35,7 @@ brew install mysql
 brew install postgresql
 brew install redis
 
-# needed for gifify
-brew install imagemagick
-brew install gifsicle
+brew install gifify
 
 # Remove outdated versions from the cellar
 brew cleanup
