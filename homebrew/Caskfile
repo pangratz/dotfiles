@@ -26,5 +26,6 @@ brew cask install cyberduck
 brew cask install flux
 brew cask install gas-mask
 brew cask install keycastr
+brew cask install qlmarkdown
 brew cask install screenhero
 brew cask install transmission
