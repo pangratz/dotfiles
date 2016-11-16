@@ -6,6 +6,7 @@ brew cask install google-drive
 
 # developing
 brew cask install atom
+brew cask install docker
 brew cask install iterm2
 brew cask install vagrant
 brew cask install virtualbox
