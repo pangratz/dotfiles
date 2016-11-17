@@ -1,0 +1,8 @@
+[storage]
+engine = google_drive
+
+[applications_to_sync]
+cyberduck
+flux
+gasmask
+screenhero
