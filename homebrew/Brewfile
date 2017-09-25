@@ -26,6 +26,7 @@ brew install z
 brew install nvm
 brew install node
 brew install phantomjs
+brew install yarn
 
 # databases
 brew install couchdb
