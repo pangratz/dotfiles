@@ -31,4 +31,5 @@ brew cask install harvest
 brew cask install keycastr
 brew cask install qlmarkdown
 brew cask install screenhero
+brew cask install slack
 brew cask install transmission
