@@ -25,9 +25,7 @@ brew install z
 # JavasScript related stuff
 brew install nvm
 brew install node
-brew install casperjs
 brew install phantomjs
-brew install slimerjs
 
 # databases
 brew install couchdb
