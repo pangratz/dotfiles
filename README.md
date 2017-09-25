@@ -18,8 +18,8 @@ those awesome dotfiles:
 
 	git clone https://github.com/pangratz/dotfiles.git ~/.dotfiles
 	cd ~/.dotfiles
-	script/install
 	script/bootstrap
+	script/install
 
 ## Set sane OSX defaults
 
