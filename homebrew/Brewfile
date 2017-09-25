@@ -21,6 +21,7 @@ brew install packer
 brew install pwgen
 brew install urlview
 brew install wget
+brew install wifi-password
 brew install z
 
 # JavasScript related stuff
