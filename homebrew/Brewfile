@@ -19,6 +19,7 @@ brew install ffmpeg
 # utilities
 brew install packer
 brew install pwgen
+brew install ssh-copy-id
 brew install urlview
 brew install wget
 brew install wifi-password
