@@ -8,6 +8,7 @@ brew install tmux
 
 # source control systems
 brew install git
+brew install hub
 brew install mercurial
 brew install subversion
 
