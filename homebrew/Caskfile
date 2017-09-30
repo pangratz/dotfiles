@@ -2,7 +2,7 @@ brew tap caskroom/versions
 
 # sync utils
 brew cask install dropbox
-brew cask install google-drive
+brew cask install google-backup-and-sync
 
 # developing
 brew cask install atom
