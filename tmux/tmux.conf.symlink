@@ -94,10 +94,10 @@ bind-key - split-window -v -c "#{pane_current_path}"
 ##############################
 
 # Setup 'v' to begin selection as in Vim
-bind-key -t vi-copy v begin-selection
+bind-key -T vi-copy v begin-selection
 
 # Update default binding of `Enter` to also use copy-pipe
-unbind-key -t vi-copy Enter
+unbind-key -T vi-copy Enter
 
 
 ##############################
