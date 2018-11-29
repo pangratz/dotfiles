@@ -33,3 +33,6 @@ brew cask install qlmarkdown
 brew cask install screenhero
 brew cask install slack
 brew cask install transmission
+
+# screen saver
+brew cask install aerial
