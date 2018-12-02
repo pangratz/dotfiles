@@ -29,7 +29,6 @@ brew install z
 # JavasScript related stuff
 brew install nvm
 brew install node
-brew install phantomjs
 brew install yarn
 
 # Erlang and Friends
