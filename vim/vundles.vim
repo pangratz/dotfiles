@@ -30,6 +30,7 @@ Bundle "tpope/vim-fugitive"
 Bundle "altercation/vim-colors-solarized"
 
 " Other
+Bundle 'JulesWang/css.vim'
 Bundle "elixir-lang/vim-elixir"
 Bundle "vim-ruby/vim-ruby"
 Bundle "mustache/vim-mustache-handlebars"
