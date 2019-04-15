@@ -28,6 +28,7 @@ Bundle "tpope/vim-fugitive"
 
 " Appearance
 Bundle "altercation/vim-colors-solarized"
+Bundle "jeffkreeftmeijer/vim-numbertoggle"
 
 " Other
 Bundle 'JulesWang/css.vim'
