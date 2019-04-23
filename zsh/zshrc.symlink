@@ -52,7 +52,7 @@ COMPLETION_WAITING_DOTS="true"
 DISABLE_AUTO_TITLE=true
 
 # use the following oh-my-zsh plugins
-plugins=(bower brew brew-cask bundler capistrano gem git gitfast nanoc node npm pip rake ruby rvm sbt textmate vagrant vi-mode)
+plugins=(brew git gitfast npm vi-mode)
 
 # load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
