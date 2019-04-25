@@ -1,6 +1,3 @@
-# Make sure we’re using the latest Homebrew
-brew update
-
 # Use most recent version of vim
 brew install vim --override-system-vi
 
