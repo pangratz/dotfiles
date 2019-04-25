@@ -1,45 +1,42 @@
 # Use most recent version of vim
-brew install vim --override-system-vi
+brew "vim"
 
-brew install tmux
+brew "tmux"
 
 # source control systems
-brew install git
-brew install git-extras
-brew install hub
-brew install mercurial
-brew install subversion
+brew "git"
+brew "git-extras"
+brew "hub"
+brew "mercurial"
+brew "subversion"
 
 # youtube-dl and dependencies for post processing
-brew install youtube-dl
-brew install ffmpeg
+brew "youtube-dl"
+brew "ffmpeg"
 
 # utilities
-brew install packer
-brew install pwgen
-brew install ssh-copy-id
-brew install urlview
-brew install wget
-brew install wifi-password
-brew install z
+brew "packer"
+brew "pwgen"
+brew "ssh-copy-id"
+brew "urlview"
+brew "wget"
+brew "wifi-password"
+brew "z"
 
 # JavasScript related stuff
-brew install nvm
-brew install node
-brew install yarn
+brew "nvm"
+brew "node"
+brew "yarn"
 
 # Erlang and Friends
-brew install erlang
-brew install elixir
+brew "erlang"
+brew "elixir"
 
 # databases
-brew install couchdb
-brew install mysql
-brew install postgresql
-brew install redis
+brew "couchdb"
+brew "mysql"
+brew "postgresql"
+brew "redis"
 
-brew install gifify
-brew install svgo
-
-# Remove outdated versions from the cellar
-brew cleanup
+brew "gifify"
+brew "svgo"

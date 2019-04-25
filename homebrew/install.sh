@@ -13,7 +13,7 @@ then
 fi
 
 # Install homebrew packages from se Brewfile
-$DOTFILES/homebrew/Brewfile
+brew bundle --file=$DOTFILES/homebrew/Brewfile
 
 # Install casks from se Caskfile
 $DOTFILES/homebrew/Caskfile
