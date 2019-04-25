@@ -23,6 +23,7 @@ brew "urlview"
 brew "wget"
 brew "wifi-password"
 brew "z"
+brew "zsh"
 
 # JavasScript related stuff
 brew "nvm"
