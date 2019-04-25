@@ -40,3 +40,5 @@ brew "redis"
 
 brew "gifify"
 brew "svgo"
+
+brew "mas"

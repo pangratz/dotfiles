@@ -18,4 +18,7 @@ brew bundle --file=$DOTFILES/homebrew/Brewfile
 # Install casks from se Caskfile
 brew bundle --file=$DOTFILES/homebrew/Caskfile
 
+# Install apps from App Store via se Masfile
+brew bundle --file=$DOTFILES/homebrew/Masfile
+
 exit 0
