@@ -17,6 +17,7 @@ brew "ffmpeg"
 # utilities
 brew "packer"
 brew "pwgen"
+brew "ripgrep"
 brew "ssh-copy-id"
 brew "urlview"
 brew "wget"
