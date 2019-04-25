@@ -12,10 +12,6 @@ brew cask install google-chrome
 brew cask install google-chrome-canary
 brew cask install opera
 
-# menu bar
-brew cask install fantastical
-brew cask install gitify
-
 # utilities
 brew cask install cyberduck
 brew cask install flux
