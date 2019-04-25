@@ -16,6 +16,6 @@ fi
 brew bundle --file=$DOTFILES/homebrew/Brewfile
 
 # Install casks from se Caskfile
-$DOTFILES/homebrew/Caskfile
+brew bundle --file=$DOTFILES/homebrew/Caskfile
 
 exit 0

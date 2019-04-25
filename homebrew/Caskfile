@@ -1,28 +1,28 @@
 # developing
-brew cask install atom
-brew cask install docker
-brew cask install iterm2
-brew cask install vagrant
-brew cask install virtualbox
-brew cask install vlc
+cask "atom"
+cask "docker"
+cask "iterm2"
+cask "vagrant"
+cask "virtualbox"
+cask "vlc"
 
 # browsers
-brew cask install firefox
-brew cask install google-chrome
-brew cask install google-chrome-canary
-brew cask install opera
+cask "firefox"
+cask "google-chrome"
+cask "google-chrome-canary"
+cask "opera"
 
 # utilities
-brew cask install cyberduck
-brew cask install flux
-brew cask install gas-mask
-brew cask install gnucash
-brew cask install harvest
-brew cask install keycastr
-brew cask install qlmarkdown
-brew cask install screenhero
-brew cask install slack
-brew cask install transmission
+cask "cyberduck"
+cask "flux"
+cask "gas-mask"
+cask "gnucash"
+cask "harvest"
+cask "keycastr"
+cask "qlmarkdown"
+cask "screenhero"
+cask "slack"
+cask "transmission"
 
 # screen saver
-brew cask install aerial
+cask "aerial"
