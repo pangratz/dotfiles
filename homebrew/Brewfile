@@ -2,6 +2,7 @@
 brew "vim"
 
 brew "tmux"
+brew "reattach-to-user-namespace"
 
 # source control systems
 brew "git"

@@ -1,6 +1,9 @@
 # set default-terminal so colors work correctly
 set-option -g default-terminal "screen-256color"
 
+# make pbcopy and pbpaste work when using tmxu and zsh
+set-option -g default-command "reattach-to-user-namespace -l zsh"
+
 # change PREFIX to <ctrl>a
 set-option -g prefix C-a
 unbind-key C-b
