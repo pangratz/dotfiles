@@ -3,6 +3,7 @@ let g:ale_linters = {
 \}
 
 let g:ale_fixers = {
+\   'elixir': ['mix_format'],
 \   'javascript': ['prettier'],
 \   'json': ['prettier'],
 \   'css': ['prettier'],
