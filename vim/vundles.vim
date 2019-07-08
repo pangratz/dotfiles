@@ -30,6 +30,9 @@ Bundle "tpope/vim-fugitive"
 Bundle "altercation/vim-colors-solarized"
 Bundle "jeffkreeftmeijer/vim-numbertoggle"
 
+" HTML / CSS
+Bundle "mattn/emmet-vim"
+
 " Other
 Bundle 'JulesWang/css.vim'
 Bundle "elixir-lang/vim-elixir"
