@@ -25,6 +25,7 @@ Bundle "tpope/vim-surround"
 
 " Git
 Bundle "tpope/vim-fugitive"
+Bundle "Xuyuanp/nerdtree-git-plugin"
 
 " Appearance
 Bundle "altercation/vim-colors-solarized"
