@@ -16,6 +16,9 @@ call vundle#begin()
 " let Vundle manage Vundle (required)
 Bundle "gmarik/vundle"
 
+" Wiki
+Bundle "vimwiki/vimwiki"
+
 " File Navigation / Project Management
 Bundle "scrooloose/nerdtree.git"
 Bundle "kien/ctrlp.vim"
