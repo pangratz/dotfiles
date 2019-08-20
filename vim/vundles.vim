@@ -21,7 +21,7 @@ Bundle "vimwiki/vimwiki"
 
 " File Navigation / Project Management
 Bundle "scrooloose/nerdtree.git"
-Bundle "kien/ctrlp.vim"
+Bundle "ctrlpvim/ctrlp.vim"
 
 " Text
 Bundle "tpope/vim-surround"
