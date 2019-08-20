@@ -39,13 +39,7 @@ Bundle "jeffkreeftmeijer/vim-numbertoggle"
 Bundle "mattn/emmet-vim"
 
 " Other
-Bundle 'JulesWang/css.vim'
-Bundle "elixir-lang/vim-elixir"
-Bundle "vim-ruby/vim-ruby"
-Bundle "mustache/vim-mustache-handlebars"
-Bundle "pangloss/vim-javascript"
-Bundle "tpope/vim-obsession"
-Bundle "leafgarland/typescript-vim"
+Bundle 'sheerun/vim-polyglot'
 Bundle 'w0rp/ale'
 
 " All of your Plugins must be added before the following line
