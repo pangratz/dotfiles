@@ -57,7 +57,7 @@ COMPLETION_WAITING_DOTS="true"
 DISABLE_AUTO_TITLE=true
 
 # use the following oh-my-zsh plugins
-plugins=(brew git gitfast npm vi-mode)
+plugins=(asdf brew git gitfast npm vi-mode)
 
 # load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
