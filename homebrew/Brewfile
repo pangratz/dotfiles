@@ -16,6 +16,7 @@ brew "youtube-dl"
 brew "ffmpeg"
 
 # utilities
+brew "fzf"
 brew "packer"
 brew "pwgen"
 brew "ripgrep"
