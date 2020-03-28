@@ -25,6 +25,9 @@ Plug 'junegunn/gv.vim'
 Plug 'altercation/vim-colors-solarized'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
 
+" IDE
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 " HTML / CSS
 Plug 'mattn/emmet-vim'
 
