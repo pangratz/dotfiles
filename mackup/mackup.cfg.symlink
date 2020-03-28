@@ -1,8 +1,7 @@
 [storage]
-engine = google_drive
+engine = file_system
+path = .dotfiles/mackup
 
 [applications_to_sync]
-cyberduck
 flux
-gasmask
-screenhero
+macosx
