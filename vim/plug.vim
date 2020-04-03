@@ -27,6 +27,7 @@ Plug 'jeffkreeftmeijer/vim-numbertoggle'
 
 " IDE
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'leafgarland/typescript-vim'
 
 " HTML / CSS
 Plug 'mattn/emmet-vim'
