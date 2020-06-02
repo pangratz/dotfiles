@@ -36,9 +36,6 @@ brew "yarn"
 brew "erlang"
 brew "elixir"
 
-# Ruby Ruby Ruby Ruby
-brew "rbenv"
-
 # databases
 brew "couchdb"
 brew "mysql"
