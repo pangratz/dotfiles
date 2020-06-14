@@ -45,24 +45,7 @@ done
 
 unset config_files
 
-#################
-### OH MY ZSH ###
-#################
-
-# Path to oh-my-zsh configuration.
-ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="steeef"
-DISABLE_AUTO_UPDATE="false"
-COMPLETION_WAITING_DOTS="true"
-DISABLE_AUTO_TITLE=true
-
-# use the following oh-my-zsh plugins
-plugins=(asdf brew git gitfast npm yarn vi-mode fzf)
-
-# load oh-my-zsh
-source $ZSH/oh-my-zsh.sh
-
-####################
+###################
 ### CUSTOM ALIAS ###
 ####################
 
