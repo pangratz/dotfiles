@@ -11,6 +11,8 @@ brew "vim"
 brew "tmux"
 brew "reattach-to-user-namespace"
 
+brew "romkatv/powerlevel10k/powerlevel10k"
+
 # source control systems
 brew "git"
 brew "git-extras"
