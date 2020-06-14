@@ -22,7 +22,6 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'junegunn/gv.vim'
 
 " Appearance
-Plug 'altercation/vim-colors-solarized'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
 
 " IDE
