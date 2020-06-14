@@ -1,3 +1,10 @@
+cask_args appdir: "/Applications"
+
+tap "homebrew/cask-versions"
+tap "homebrew/cask-drivers"
+
+brew "mas"
+
 # Use most recent version of vim
 brew "vim"
 
@@ -7,6 +14,7 @@ brew "reattach-to-user-namespace"
 # source control systems
 brew "git"
 brew "git-extras"
+brew "git-lfs"
 brew "hub"
 brew "mercurial"
 brew "subversion"
@@ -16,7 +24,10 @@ brew "youtube-dl"
 brew "ffmpeg"
 
 # utilities
+brew "asdf"
+brew "coreutils"
 brew "fzf"
+brew "gpg"
 brew "packer"
 brew "pwgen"
 brew "ripgrep"
@@ -28,7 +39,6 @@ brew "z"
 brew "zsh"
 
 # JavasScript related stuff
-brew "nvm"
 brew "node"
 brew "yarn"
 
@@ -36,16 +46,50 @@ brew "yarn"
 brew "erlang"
 brew "elixir"
 
-# Ruby Ruby Ruby Ruby
-brew "rbenv"
+# Java
+cask "adoptopenjdk"
 
 # databases
 brew "couchdb"
 brew "mysql"
 brew "postgresql"
+cask "postgres"
 brew "redis"
+cask "dbeaver-community"
 
 brew "gifify"
 brew "svgo"
 
-brew "mas"
+# developing
+cask "atom"
+cask "docker"
+cask "iterm2"
+cask "vlc"
+
+# browsers
+cask "firefox"
+cask "google-chrome"
+cask "google-chrome-canary"
+cask "opera"
+
+# utilities
+cask "cyberduck"
+cask "flux"
+cask "qlmarkdown"
+cask "signal"
+cask "slack"
+cask "transmission"
+cask "twist"
+
+# other
+cask "spotify"
+
+# screen saver
+cask "aerial"
+
+# Apps
+mas "1Password", id: 1333542190
+mas "Fantastical 2", id: 975937182
+mas "Harvest", id: 506189836
+mas "Telegram", id: 747648890
+mas "Todoist", id: 585829637
