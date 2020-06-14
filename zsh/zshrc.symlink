@@ -71,3 +71,4 @@ for file in ${(M)custom_alias}
 do
   source $file
 done
+export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
