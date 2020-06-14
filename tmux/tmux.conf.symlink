@@ -115,6 +115,7 @@ set -g @plugin 'tmux-plugins/tmux-yank'
 set -g @plugin 'tmux-plugins/tmux-urlview'
 set -g @plugin 'tmux-plugins/tmux-resurrect'
 set -g @plugin 'tmux-plugins/tmux-continuum'
+set -g @plugin 'arcticicestudio/nord-tmux'
 
 # Configuration for plugins
 set -g @resurrect-strategy-vim 'session'
