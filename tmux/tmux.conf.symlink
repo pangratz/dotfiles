@@ -51,6 +51,12 @@ bind-key -r j select-pane -D
 bind-key -r k select-pane -U
 bind-key -r l select-pane -R
 
+# allow <alt>+rrow keys to navigate between panes
+bind -n M-Left select-pane -L
+bind -n M-Right select-pane -R
+bind -n M-Up select-pane -U
+bind -n M-Down select-pane -D
+
 # navigate to previous window with prefix + <ctr>h
 bind-key -r C-h select-window -t :-
 
