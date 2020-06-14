@@ -23,6 +23,7 @@ Plug 'junegunn/gv.vim'
 
 " Appearance
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
+Plug 'arcticicestudio/nord-vim'
 
 " IDE
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
