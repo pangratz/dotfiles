@@ -2,6 +2,10 @@ cask_args appdir: "/Applications"
 
 tap "homebrew/cask-versions"
 tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+
+# font needed for powerlevel10k shell theme
+cask "font-meslolg-nerd-font"
 
 brew "mas"
 
