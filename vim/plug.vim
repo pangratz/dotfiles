@@ -34,6 +34,6 @@ Plug 'mattn/emmet-vim'
 
 " Other
 Plug 'sheerun/vim-polyglot'
-Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
 
 call plug#end()
