@@ -52,6 +52,8 @@ done
 
 unset config_files
 
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+
 ###################
 ### CUSTOM ALIAS ###
 ####################
