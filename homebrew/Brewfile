@@ -96,6 +96,7 @@ cask "aerial"
 # Apps
 mas "1Password", id: 1333542190
 mas "Fantastical 2", id: 975937182
+mas "Gifski", id: 1351639930
 mas "Harvest", id: 506189836
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
