@@ -21,7 +21,6 @@ brew "romkatv/powerlevel10k/powerlevel10k"
 brew "git"
 brew "git-extras"
 brew "git-lfs"
-brew "hub"
 brew "mercurial"
 brew "subversion"
 
