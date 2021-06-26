@@ -30,6 +30,7 @@ brew "ffmpeg"
 
 # utilities
 brew "asdf"
+brew "bat"
 brew "coreutils"
 brew "fzf"
 brew "gpg"
