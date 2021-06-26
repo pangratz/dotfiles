@@ -11,7 +11,8 @@ Plug 'vimwiki/vimwiki'
 
 " File Navigation / Project Management
 Plug 'preservim/nerdtree'
-Plug 'junegunn/fzf'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 " Text
 Plug 'tpope/vim-surround'
