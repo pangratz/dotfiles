@@ -6,9 +6,6 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-" Wiki
-Plug 'vimwiki/vimwiki'
-
 " File Navigation / Project Management
 Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
