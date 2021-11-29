@@ -9,7 +9,7 @@
 if test ! $(which brew)
 then
   echo "  Installing Homebrew for you."
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 # Install homebrew packages from se Brewfile
