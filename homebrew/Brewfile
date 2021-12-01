@@ -21,8 +21,6 @@ brew "romkatv/powerlevel10k/powerlevel10k"
 brew "git"
 brew "git-extras"
 brew "git-lfs"
-brew "mercurial"
-brew "subversion"
 
 # youtube-dl and dependencies for post processing
 brew "youtube-dl"
@@ -48,21 +46,6 @@ brew "zsh"
 # JavasScript related stuff
 brew volta
 
-# Erlang and Friends
-brew "erlang"
-brew "elixir"
-
-# Java
-cask "adoptopenjdk"
-
-# databases
-brew "couchdb"
-brew "mysql"
-brew "postgresql"
-cask "postgres"
-brew "redis"
-cask "dbeaver-community"
-
 brew "gifify"
 brew "svgo"
 
@@ -76,12 +59,9 @@ cask "vlc"
 cask "firefox"
 cask "google-chrome"
 cask "google-chrome-canary"
-cask "opera"
 
 # utilities
-cask "cyberduck"
 cask "flux"
-cask "qlmarkdown"
 cask "signal"
 cask "slack"
 cask "transmission"
@@ -101,6 +81,5 @@ mas "Harvest", id: 506189836
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Shush - Microphone Manager", id: 496437906
 mas "Telegram", id: 747648890
 mas "Todoist", id: 585829637
