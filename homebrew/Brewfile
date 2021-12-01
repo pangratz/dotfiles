@@ -46,6 +46,7 @@ brew "z"
 brew "zsh"
 
 # JavasScript related stuff
+brew volta
 brew "node"
 brew "yarn"
 
