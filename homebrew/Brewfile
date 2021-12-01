@@ -47,8 +47,6 @@ brew "zsh"
 
 # JavasScript related stuff
 brew volta
-brew "node"
-brew "yarn"
 
 # Erlang and Friends
 brew "erlang"
