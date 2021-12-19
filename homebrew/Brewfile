@@ -23,7 +23,7 @@ brew "git-extras"
 brew "git-lfs"
 
 # youtube-dl and dependencies for post processing
-brew "youtube-dl"
+brew "yt-dlp/taps/yt-dlp"
 brew "ffmpeg"
 
 # utilities
