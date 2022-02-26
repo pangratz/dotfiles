@@ -44,7 +44,7 @@ brew "z"
 brew "zsh"
 
 # JavasScript related stuff
-brew volta
+brew "volta"
 
 brew "gifify"
 brew "svgo"
