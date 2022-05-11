@@ -32,5 +32,6 @@ Plug 'mattn/emmet-vim'
 " Other
 Plug 'sheerun/vim-polyglot'
 Plug 'dense-analysis/ale'
+Plug 'earthly/earthly.vim', { 'branch': 'main' }
 
 call plug#end()
