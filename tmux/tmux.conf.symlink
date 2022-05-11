@@ -41,11 +41,11 @@ bind-key c new-window -c "#{pane_current_path}"
 set-option -g mouse on
 
 # open popup to select session
-bind C-j display-popup -E "\
-    tmux list-sessions -F '#{?session_attached,,#{session_name}}' |\
-    sed '/^$/d' |\
-    fzf --reverse --header jump-to-session --preview 'tmux capture-pane -pt {}'  |\
-    xargs tmux switch-client -t"
+bind C-j display-popup -E "tmux list-windows -a -F '#{session_name}:#{window_index} - #{window_name}' \
+                          | grep -v \"^$(tmux display-message -p '#S')\$\" \
+                          | fzf --reverse \
+                          | sed -E 's/\s-.*$//' \
+                          | xargs tmux switch-client -t"
 
 
 ##############################
