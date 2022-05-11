@@ -21,7 +21,7 @@ Plug 'junegunn/gv.vim'
 
 " Appearance
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
-Plug 'arcticicestudio/nord-vim'
+Plug 'arcticicestudio/nord-vim', { 'branch': 'develop' }
 
 " IDE
 Plug 'leafgarland/typescript-vim'
