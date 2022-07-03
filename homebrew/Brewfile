@@ -64,6 +64,7 @@ cask "google-chrome-canary"
 
 # utilities
 cask "flux"
+cask "monitorcontrol"
 cask "signal"
 cask "slack"
 cask "transmission"
