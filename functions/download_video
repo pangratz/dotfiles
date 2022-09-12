@@ -1,0 +1,4 @@
+download_video() {
+  local url=$1
+  noglob yt-dlp --merge-output-format mkv $url
+}
