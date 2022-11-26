@@ -5,7 +5,7 @@ tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 
 # font needed for powerlevel10k shell theme
-cask "font-meslolg-nerd-font"
+cask "font-meslo-lg-nerd-font"
 
 brew "mas"
 
