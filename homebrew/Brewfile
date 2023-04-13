@@ -62,6 +62,7 @@ cask "google-chrome"
 cask "google-chrome-canary"
 
 # utilities
+cask "cold-turkey-blocker"
 cask "monitorcontrol"
 cask "signal"
 cask "slack"
