@@ -52,7 +52,6 @@ brew "svgo"
 
 # developing
 cask "alacritty"
-cask "atom"
 cask "docker"
 cask "iterm2"
 cask "vlc"
