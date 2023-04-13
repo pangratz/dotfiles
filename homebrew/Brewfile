@@ -51,7 +51,6 @@ brew "gifify"
 brew "svgo"
 
 # developing
-cask "alacritty"
 cask "docker"
 cask "iterm2"
 
