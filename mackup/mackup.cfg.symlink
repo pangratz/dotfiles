@@ -1,7 +1,0 @@
-[storage]
-engine = file_system
-path = .dotfiles/mackup
-
-[applications_to_sync]
-flux
-macosx
