@@ -54,7 +54,6 @@ brew "svgo"
 cask "alacritty"
 cask "docker"
 cask "iterm2"
-cask "vlc"
 
 # browsers
 cask "firefox"
@@ -71,6 +70,7 @@ cask "twist"
 
 # other
 cask "spotify"
+cask "vlc"
 
 # screen saver
 cask "aerial"
