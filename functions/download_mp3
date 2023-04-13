@@ -1,0 +1,4 @@
+download_mp3() {
+  local url=$1
+  noglob yt-dlp -x --audio-format mp3 $url
+}
