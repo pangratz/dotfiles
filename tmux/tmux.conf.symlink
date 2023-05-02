@@ -93,6 +93,8 @@ bind-key -r C-S-left swap-window -t -1
 # move current window right with prefix + <ctrl><shift><right>
 bind-key -r C-S-right swap-window -t +1
 
+bind-key -n MouseDrag1Status swap-window -d -t=
+
 
 ##############################
 ## THE MOST EPIC OF SPLITS ###
