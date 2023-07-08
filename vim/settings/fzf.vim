@@ -1,4 +1,5 @@
 nnoremap <C-p> :<C-u>FZF<CR>
+nnoremap <C-f> :<C-u>:Rg<CR>
 
 set rtp+=/opt/homebrew/opt/fzf
 
