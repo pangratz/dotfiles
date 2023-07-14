@@ -32,3 +32,18 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 # Set the Finder prefs for showing a few different volumes on the Desktop.
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
+
+# Set application wide keyboard shortcuts, taken from https://apple.stackexchange.com/a/294411/25250
+# System Preferences > Keyboard > Keyboard Shortcuts... > App Shortcuts > All Applications
+#
+# command = @
+# control = ^
+# option = ~
+# shift = $
+#
+# Sleep: <cmd><ctrl><option>s
+# Maximize window aka zoom via: <cmd><option>=
+defaults write NSGlobalDomain NSUserKeyEquivalents '{
+  Sleep = "@~^s";
+  Zoom = "@~=";
+}'
