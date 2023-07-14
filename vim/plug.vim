@@ -33,6 +33,5 @@ Plug 'mattn/emmet-vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'dense-analysis/ale'
 Plug 'earthly/earthly.vim', { 'branch': 'main' }
-Plug 'elixir-editors/vim-elixir'
 
 call plug#end()
